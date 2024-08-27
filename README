@@ -1,0 +1,5 @@
+### dataServer:主要提供数据内容存储服务能力
+### metaServer:主要提供文件系统全局元数据管理，管理dataserver的负载均衡，主备模式运行
+### easyClient:一个功能逻辑简单的SDK，用来与metaServer、dataServer通信，完成文件数据操作
+
+使用方式:启动ZooKeeper和MetaServer, DataServer, 然后运行EasyClient中的TestClient

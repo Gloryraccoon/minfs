@@ -1,0 +1,8 @@
+server:
+  ip: localhost
+  port: 9000
+  Zooport: 2181
+  ZooIp: localhost
+az:
+  rack: rack1
+  zone: zone1
